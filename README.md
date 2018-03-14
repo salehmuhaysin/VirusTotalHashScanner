@@ -13,12 +13,12 @@ Install the virustotal api
 
 ### Usage:
 
-*<input-file>*: a file contain a list of hashes each one in new line  
-The result will be stored in another file ( *<input-file>.scanned* )
+*\<input-file\>*: a file contain a list of hashes each one in new line  
+The result will be stored in another file ( *\<input-file\>.scanned* )
 
 To start scanning:
 
-> python vtchk.py *<filename>*
+> python vtchk.py *\<filename\>*
 
 
 
