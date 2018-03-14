@@ -9,7 +9,7 @@ To learn more about VirusTotal API please go [here](https://github.com/Gawen/vir
 
 Install the virustotal api
 
->	pip install virustotal
+>	**pip install virustotal**
 
 
 ### Usage:
@@ -19,7 +19,7 @@ The result will be stored in another file ( *\<input-file\>.scanned* )
 
 To start scanning:
 
-> python vtchk.py *\<filename\>*
+> **python vtchk.py *\<filename\>***
 
 
 
@@ -27,5 +27,5 @@ To start scanning:
 
 If you want to watch only the results that has 2 hits or more, use the following command:
 
-> watch -d "cat res.csv.scanned | grep -v 0/ | grep -v 'NO DATA' | grep -v 'Couldn' | grep -v 1/"
+> **watch -d "cat res.csv.scanned | grep -v 0/ | grep -v 'NO DATA' | grep -v 'Couldn' | grep -v 1/"**
 
