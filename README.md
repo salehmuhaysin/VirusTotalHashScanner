@@ -5,14 +5,14 @@ NOTE: inside the python script change the API key with your own key, you get it 
 
 To learn more about VirusTotal API please go [here](https://github.com/Gawen/virustotal)
 
-### Requirements:
+## Requirements:
 
 Install the virustotal api python library
 
 >	**pip install virustotal**
 
 
-### Usage:
+## Usage:
 
 *\<input-file\>*: a file contain a list of hashes each one in new line  
 The result will be stored in another file ( *\<input-file\>.scanned* )
@@ -25,7 +25,7 @@ The output will be like:
 
 ![Results](https://github.com/salehmuhaysin/VirusTotalHashScanner/blob/master/Capture.PNG)
 
-### Watching results:
+## Watching results:
 
 If you want to watch only the results that has 2 hits or more, use the following command:
 
