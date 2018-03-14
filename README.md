@@ -22,6 +22,7 @@ To start scanning:
 > **python vtchk.py *\<filename\>***
 
 The output will be like:
+
 ![Results](https://github.com/salehmuhaysin/VirusTotalHashScanner/blob/master/Capture.PNG)
 
 ### Watching results:
