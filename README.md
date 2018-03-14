@@ -1,8 +1,9 @@
 # VirusTotalHashScanner
-Tool to check a list of hashes against VirusTotal to get the result ( number of AV found the file of the given hash malicious )
+Tool to check a list of MD5 hashes against VirusTotal to get the result ( number of AV found the file of the given hash malicious )
 
 NOTE: inside the python script change the API key with your own key, you get it from your VirusTotal account
 
+To learn more about VirusTotal API please go [here](https://github.com/Gawen/virustotal)
 
 ### Requirements:
 
