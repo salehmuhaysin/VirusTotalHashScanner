@@ -29,5 +29,5 @@ The output will be like:
 
 If you want to watch only the results that has 2 hits or more, use the following command:
 
-> **watch -d "cat res.csv.scanned | grep -v 0/ | grep -v 'NO DATA' | grep -v 'Couldn' | grep -v 1/"**
+> **watch -d "cat <input-file>.scanned | grep -v 0/ | grep -v 'NO DATA' | grep -v 'Couldn' | grep -v 1/"**
 
